@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TensorFlowLiteSwiftCustomDataAPI'
-  s.version          = '2.7.0-CustomDataAPI-v1'
+  s.version          = 'v2.7.0-CDAPI-v1'
   s.authors          = 'physxP'
   s.license          = { :type => 'Apache' }
   s.homepage         = 'https://github.com/tensorflow/tensorflow'
