@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |core|
-    core.dependency 'TensorFlowLiteC', "#{s.version}"
+    core.dependency 'TensorFlowLiteC', '~> 0.0.1-nightly'
     core.source_files = swift_dir + 'Sources/*.swift'
     core.exclude_files = swift_dir + 'Sources/{CoreML,Metal}Delegate.swift'
 
